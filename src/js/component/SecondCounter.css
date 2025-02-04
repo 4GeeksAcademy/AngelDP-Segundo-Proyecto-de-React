@@ -1,0 +1,17 @@
+.display {
+    margin: 20px;
+    display: flex;
+    height: 150px;
+    width: 100px;
+    background-color: rgb(26, 23, 23);
+    border-radius: 5px;
+}
+
+.displayNumber {
+    margin: auto
+}
+
+.number {
+    color: white;
+    font-size: 6em;
+}
