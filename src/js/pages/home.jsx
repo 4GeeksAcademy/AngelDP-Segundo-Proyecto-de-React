@@ -51,6 +51,10 @@ const Home = () => {
 		setCounting(!counting);
 	};
 
+	const reset = () => {
+		setCounterValues([0, 0, 0, 0, 0, 0]);
+	}
+
 	return (
 		<>
 			<div className="container myWatch">
@@ -62,6 +66,9 @@ const Home = () => {
 				</div>
 				<button type="button" className="btn btn-light m-3" onClick={stopPlay}>
 					<i className="fa-solid fa-pause"></i>  <i className="fa-solid fa-play"></i>
+				</button>
+				<button type="button" className="btn btn-danger m-3" onClick={reset}>
+					<i class="fa-solid fa-reply-all"></i>
 				</button>
 			</div>
 		</>
